@@ -7,22 +7,21 @@ using System.Threading.Tasks;
 
 namespace Uebung3A_Wartezimmer
 {
-    internal class Patient
+    public class Patient
     {
         private string _name;
-        public Patient(string name)    
-        { 
-           name = _name;
-        }
 
-
-        public string Name
+        public Patient(string name)
         {
-            get { return _name; }
-            set { _name = value; }
+            _name = name;
         }
 
+        public string Name => _name;
 
-
+        public override string ToString()
+        {
+            return $"Patient: {_name}";
+        }
     }
+
 }
