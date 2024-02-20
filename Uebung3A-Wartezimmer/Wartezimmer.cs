@@ -37,7 +37,7 @@ namespace Uebung3A_Wartezimmer
 
         public override string ToString()
         {
-            string wartezimmerText = "Wartezimmer:\n";
+            string wartezimmerText = "Wartezimer:\n";
             foreach (Patient patient in _patienten)
             {
                 wartezimmerText += patient.ToString() + "\n";
