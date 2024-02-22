@@ -7,7 +7,7 @@
 
 
             int[] array = { 1, 3, 5, 7, 9, 12, 15, 19 };
-            int value = 9;
+            int value = 15;
 
             int index = BinarySearch(array, value);
             if (index != -1)
